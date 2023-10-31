@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url(fonts/IBMPlexMono-Medium.ttf);
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  background-color: #F1F1F1;
+}
+
+.header-logo__link, .footer-logo__link {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 110px;
+  background-color: #FFF;
+  border-bottom: 1px solid #A1A6B4;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  display: block;
+  margin: 30.2px 0 16.6px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav__ul {
+  display: flex;
+  gap: 24px;
+}
+
+.header-nav__li {
+  list-style-type: none;
+}
+
+.header-nav__link__tg, .header-nav__link__vk, .header-nav__link__youtube {
+  text-decoration: none;
+}
+
+.main {
+  margin: 25px 0 25px;
+}
+
+.main__container {
+  width: 80%;
+  max-width: 1161px;
+  margin: 0 auto;
+}
+
+.main__container__title {
+  margin: 0;
+  color: #121723;
+  font-family: "IBM Plex Mono", sans-serif, Arial;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.card {
+  width: 371px;
+  height: 100%;
+  background-color: #FFF;
+  border-radius: 12px;
+}
+
+.card__image {
+	width: 371px;
+  height: 254px;
+  border-radius: 12px 12px 0 0;
+}
+
+.card__title__text {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+  width: 323px;
+  padding: 32px 24px;
+}
+
+.card__title {
+  width: 323px;
+  margin: 0 auto;
+  color: #121723;
+  font-family: "Anonymous Pro", sans-serif, Arial;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card__text {
+  width: 323px;
+  margin: 0 auto;
+  color: #121723;
+  font-family: "Anonymous Pro", sans-serif, Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer {
+  width: 100%;
+  height: 142px;
+  background-color: #121723;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1160px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(230, 232, 236, 0.40);
+}
+
+.footer-logo {
+  display: block;
+  margin: 32px 0 32px;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+}
+
+.footer-nav__ul {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-nav__li {
+  list-style-type: none;
+}
+
+.footer-nav__link__tg, .footer-nav__link__vk, .footer-nav__link__youtube {
+  text-decoration: none;
+}
+
+.footer-text {
+  margin: 18px 0 auto;
+  text-align: center;
+  color: #A1A6B4;
+  font-family: "Anonymous Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
